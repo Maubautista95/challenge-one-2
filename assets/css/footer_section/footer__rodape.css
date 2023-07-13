@@ -1,0 +1,10 @@
+.footer__rodape{
+    font-family: Raleway;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.footer__rodapie, p{
+    margin-bottom: 0.3rem;
+}
+

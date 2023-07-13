@@ -1,0 +1,8 @@
+.academic__courses__box{
+    width: 368px;
+    height: 347px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0.75rem;
+    
+}

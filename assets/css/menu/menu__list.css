@@ -1,0 +1,17 @@
+.menu__list{
+
+    display: flex;
+    
+}
+
+.menu__list__item{
+
+    margin: 10px;
+    font-family: Raleway;
+    font-weight: 500;
+
+}
+
+.menu__list__item:last-child{
+    font-weight: bold;
+}

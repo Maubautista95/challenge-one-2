@@ -1,0 +1,40 @@
+.formcontacto__textarea{
+    font-family: Raleway;
+    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+    width: 656px;
+    height: 133px;
+    border: white;
+    border-radius: 4px;
+    padding: 1.2rem 0 0 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.formcontacto__textarea::placeholder{
+    font-size: 1.05rem;
+    font-family: Raleway;
+    font-size: 0.75rem;
+    color: grey;
+    text-align: left;
+    line-height: normal;
+}
+
+.labelTextArea{
+
+    display: none;
+    position: relative;
+    bottom: 9.68rem;
+    /*display: none;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    font-family: Raleway;
+    color: grey;
+    font-size: 230rem;
+    */
+}
+
+.formcontacto__textarea:focus + label{
+
+    display: block;
+}

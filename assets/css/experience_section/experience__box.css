@@ -1,0 +1,18 @@
+.experience__box{
+    display: flex;
+    margin: 2.8rem 0 0 0;
+    justify-content: left;
+}
+
+.experience__box:nth-child(odd){
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.experience__box:first-of-type{
+    margin: 1rem 0 0 0;
+}
+
+.experience__box:last-of-type{
+    padding-bottom: 3rem;
+}

@@ -1,0 +1,11 @@
+.title{
+    margin: 0 18rem;
+}
+
+.title__div{
+    display: flex;
+    
+    align-items: center;
+}
+
+

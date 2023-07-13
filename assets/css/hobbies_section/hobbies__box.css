@@ -1,0 +1,9 @@
+.hobbies__box{
+width: 176px;
+height: 174px;
+background: #FFFFFF;
+padding: 1.15rem;
+margin: 0 0.66rem;
+display: flex;
+align-items:last baseline;
+}

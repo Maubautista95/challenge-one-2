@@ -1,0 +1,11 @@
+.about__paragraph{
+    margin: 0.95rem 0;
+    margin-right: 25rem;
+    font-family: Raleway;
+    font-size: 1rem;
+    
+}
+
+.about__paragraph:last-of-type {
+    margin-bottom: 1.5rem;
+}   

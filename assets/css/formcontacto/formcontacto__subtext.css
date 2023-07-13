@@ -1,0 +1,11 @@
+.formcontacto__subtext{
+    font-family: Raleway;
+    font-weight: 500;
+    color: #464646;
+    margin-bottom: 0.3rem;
+}
+
+
+.formcontacto__subtext:last-of-type{
+    margin-bottom: 1rem;
+}

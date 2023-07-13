@@ -1,0 +1,11 @@
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:first baseline;
+    margin: 1rem;
+}
+
+.experience__info:nth-child(odd){
+    margin: 0;  
+}
