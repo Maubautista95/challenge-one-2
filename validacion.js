@@ -27,7 +27,7 @@ const restaurarColorLabel = () => {
     labelsFormulario.forEach((label) => {
       if (label.getAttribute("for") === event.target.id) {
         colorLabelOriginal = label.style.color; // Almacenar el color original del label
-        label.style.color = "blue"; // Cambiar el color del label seleccionado
+        label.style.color = "#3480e5"; // Cambiar el color del label seleccionado
       }
     });
   }

@@ -20,10 +20,11 @@
 
 }
 
-@media (max-width: 495px) {
+@media (max-width: 360px) {
 
     .title{
         display: flex;
+        margin: 0 3.5vw;
         
     }
 

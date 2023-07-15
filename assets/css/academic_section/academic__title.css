@@ -15,3 +15,12 @@
     }
 
 }
+
+@media (max-width: 360px) {
+
+    .academic__title{
+        width: 95vw;
+
+    }
+
+}

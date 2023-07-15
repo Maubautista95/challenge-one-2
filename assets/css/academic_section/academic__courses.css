@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 4rem;
+    align-items: baseline;
     flex-wrap: wrap;
     margin: 0 14vw;
     gap: 9vw;
@@ -10,7 +11,7 @@
 @media (max-width: 768px) {
 
     .academic__courses{
-        margin: 0;
+        margin: 0 0;
     }
 
 }

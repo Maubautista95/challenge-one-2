@@ -9,3 +9,11 @@
 .formcontacto__subtext:last-of-type{
     margin-bottom: 1rem;
 }
+
+@media(max-width: 360px){
+
+    .formcontacto__subtext{
+        width: 72vw;
+    }
+
+}

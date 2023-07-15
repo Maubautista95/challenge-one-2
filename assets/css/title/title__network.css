@@ -9,3 +9,13 @@
     margin: 0.5rem;
 }
 
+@media (max-width: 360px){
+
+    .title__network{
+
+        margin: 0 1vw;
+    }
+    .title__network__item{
+        margin: 0.75rem 0.2vw;
+    }
+}

@@ -10,3 +10,11 @@
 .experience__info:nth-child(odd){
     margin: 0;  
 }
+
+@media (max-width: 360px){
+
+    .experience__info{
+    margin: 1.5rem 0;
+    width: 80vw;
+    }
+}
