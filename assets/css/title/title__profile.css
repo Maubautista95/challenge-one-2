@@ -1,0 +1,14 @@
+.title__profile{
+
+    width: 20vw;
+}
+
+@media (max-width: 768px) {
+
+    .title__profile{
+        width: 146px;
+        height: 146px;
+    }
+
+}
+

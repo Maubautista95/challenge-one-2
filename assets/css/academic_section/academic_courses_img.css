@@ -1,0 +1,29 @@
+
+.academic_courses_img{
+    width: 12vw;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .academic_courses_img{
+        text-align: center;
+        vertical-align: bottom;
+        
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .academic_courses_img{
+
+        text-align: center;
+        width: 20vw;
+        
+        
+    }
+
+    
+}

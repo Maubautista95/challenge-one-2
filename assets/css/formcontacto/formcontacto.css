@@ -5,3 +5,11 @@
     padding-top: 5rem;
     
 }
+
+@media (max-width: 768px) {
+
+    .formcontacto{
+        padding-top: 2.5rem;
+    }
+
+}

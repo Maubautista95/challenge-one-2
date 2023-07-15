@@ -3,3 +3,12 @@
     background: #EAF2FD;
 
 }
+
+@media (max-width: 360px) {
+
+    #sobre-mi{
+
+        padding: 1rem 0 2rem 0;
+    }
+    
+}

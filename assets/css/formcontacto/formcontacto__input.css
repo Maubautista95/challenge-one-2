@@ -1,7 +1,7 @@
 .formcontacto__input{
-    min-height: 56px;
-    max-height: 56px;
-    margin: 0.45rem 0 0.45rem 0;
+    height: 56px;
+    width: 40vw;    
+    margin: 0.51rem 0 0.51rem 0;
     font-family: Raleway;
     border: white;
     border-radius: 6px;
@@ -19,7 +19,7 @@
 label {
   display: none;
   position: relative;
-  bottom: 70px;
+  bottom: 60px;
   left: 5px;
   font-family: Raleway;
   color: grey;
@@ -32,3 +32,13 @@ label {
   
 }
 
+
+@media (max-width: 768px) {
+
+  .formcontacto__input{
+
+      width: 65vw;
+  }
+
+  
+}

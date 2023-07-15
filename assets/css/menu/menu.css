@@ -1,6 +1,7 @@
 .menu{
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
     margin: 3.2rem 12rem;
 }
@@ -16,3 +17,11 @@
     
 }
 
+
+@media (max-width: 768px) {
+
+    .menu{
+        margin: 1.5rem 1.5rem;
+    }
+
+}

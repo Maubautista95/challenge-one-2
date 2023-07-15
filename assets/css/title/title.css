@@ -1,11 +1,42 @@
 .title{
-    margin: 0 18rem;
+    margin: 0 14vw;
 }
 
 .title__div{
     display: flex;
-    
+    justify-content: center;
     align-items: center;
+
 }
 
 
+
+@media (max-width: 768px) {
+
+    .title{
+        margin: 0 2rem;
+        padding: 0 0 2.5rem 0;
+    }
+
+}
+
+@media (max-width: 495px) {
+
+    .title{
+        display: flex;
+        
+    }
+
+    .title__container{
+        align-items: flex-start;
+        margin-right: 4%;
+    }
+
+    .title__div{
+        
+        flex-direction: column-reverse;
+        align-items: baseline;
+        
+    }
+
+}

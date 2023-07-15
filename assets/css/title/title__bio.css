@@ -3,3 +3,19 @@
     font-weight: 700;
     font-size: 3rem;
 }
+
+
+@media (max-width: 768px) {
+
+    .title__bio{
+
+        font-size: 1.37rem;
+    }
+}
+
+@media (max-width: 495px) {
+
+    .title__bio{
+        margin-top: 2rem;
+    }
+}

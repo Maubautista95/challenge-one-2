@@ -1,10 +1,11 @@
-.menu__list{
+.menu__list {
 
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: end;
 }
 
-.menu__list__item{
+.menu__list__item {
 
     margin: 10px;
     font-family: Raleway;
@@ -12,6 +13,48 @@
 
 }
 
-.menu__list__item:last-child{
+.menu__list__item:last-child {
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+    /* Estilos CSS aquí */
+
+    .menu__list {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .menu__list__item {
+
+        display: none;
+    }
+
+    .menu__list__item:last-child {
+        display: block;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 360px){
+
+
+    .menu__list__item:last-child{
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .menu__list__item {
+
+        margin: 0;
+        font-family: Raleway;
+        font-weight: 500;
+    
+    }
+
+}
+

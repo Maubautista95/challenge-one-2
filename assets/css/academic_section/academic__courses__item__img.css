@@ -1,6 +1,6 @@
 .academic__courses__item__img{
-    width: 368px;
-    height: 286px;
+    width: 26vw;
+    height: 21vw;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -9,3 +9,14 @@
     
     
 }
+
+@media (max-width: 360px) {
+
+    .academic__courses__item__img{
+        width: 80vw;
+        height: 40vw;
+        
+    }
+
+}
+

@@ -3,5 +3,19 @@
     align-items: center;
     justify-content: center;
     padding: 0 0 6rem 0;
+    margin: 0 12vw;
+    flex-wrap: wrap;
 
 }
+
+@media (max-width: 768px) {
+
+    .hobbies__line{
+        
+        margin: 0 2vw;
+    }
+
+}
+
+
+ 

@@ -1,9 +1,31 @@
-.hobbies__box{
-width: 176px;
-height: 174px;
-background: #FFFFFF;
-padding: 1.15rem;
-margin: 0 0.66rem;
-display: flex;
-align-items:last baseline;
+.hobbies__box {
+    width: 9.5vw;
+    height: 174px;
+    background: #FFFFFF;
+    padding: 1rem;
+    margin: 1rem 3px;
+    display: flex;
+    align-items: last baseline;
 }
+
+@media (max-width: 768px) {
+
+
+    .hobbies__box {
+        height: 118px;
+        width: 22vw;
+        margin: 1rem;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .hobbies__box {
+        height: 5.75rem;
+        width: 34vw;
+        margin: 0.5rem;
+    }
+
+
+} 

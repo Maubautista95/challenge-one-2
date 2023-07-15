@@ -1,4 +1,11 @@
 .formcontacto__contacto{
     display: flex;
-    margin: 0 18rem 0 18rem;
+    margin: 0 13vw 0 13vw;
+    flex-wrap: wrap;
 }
+
+
+
+
+
+

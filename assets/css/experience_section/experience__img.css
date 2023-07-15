@@ -1,0 +1,12 @@
+.experience__img{
+
+    width: 48vw;
+}
+
+
+@media (max-width: 768px) {
+
+    .experience__img {
+        width: 70vw;
+    }
+}

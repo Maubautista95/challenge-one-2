@@ -1,0 +1,15 @@
+.formcontacto__img{
+
+    width: 26vw;
+    height: 593px;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .formcontacto__img{
+        display: none;
+    }
+
+}

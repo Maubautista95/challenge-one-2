@@ -1,4 +1,26 @@
 .skills__line{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 12vw;
 }
+
+@media (max-width: 768px) {
+
+    .skills__line{
+        
+        margin: 0 2vw;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .skills__line{
+
+        
+
+    }
+    
+}
+ 

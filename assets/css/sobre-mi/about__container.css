@@ -1,5 +1,30 @@
 .about__container{
     background: #EAF2FD;
-    margin: 0 18rem;
+    margin: 0 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
 
 }
+
+@media (max-width: 768px) {
+
+    .about__container{
+
+        margin: 0 2rem;
+        
+    }
+}
+
+@media (max-width: 360px) {
+
+    .about__container{
+
+        margin: 0 1rem;
+
+    }
+    
+}
+
+

@@ -1,7 +1,9 @@
 .experience__box{
     display: flex;
-    margin: 2.8rem 0 0 0;
-    justify-content: left;
+    justify-content: center;
+    width: 82vw;
+    margin: 1rem 0 1rem 0;
+    flex-wrap: wrap;
 }
 
 .experience__box:nth-child(odd){
@@ -9,10 +11,35 @@
     flex-direction: row-reverse;
     
 }
+
 .experience__box:first-of-type{
     margin: 1rem 0 0 0;
 }
 
 .experience__box:last-of-type{
     padding-bottom: 3rem;
+}
+
+/*Diseño para tablet*/
+@media (max-width: 768px) {
+
+    .experience__box{
+        
+        flex-direction: column;
+        align-content: center;
+        margin: 0 5vw;
+
+
+    }
+
+    .experience__box:last-child{
+
+       margin: 0;
+    }
+
+    .experience__box:nth-child(odd){
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
