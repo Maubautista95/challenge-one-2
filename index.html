@@ -66,6 +66,8 @@
     <link href="assets/css/formcontacto/formcontacto__textarea.css" rel="stylesheet">
     <link href="assets/css/formcontacto/formcontacto__boton.css" rel="stylesheet">
     <link href="assets/css/formcontacto/formcontacto__contacto.css" rel="stylesheet">
+    <link href="assets/css/formcontacto/formcontacto__not__valid.css" rel="stylesheet">
+    <link href="assets/css/formcontacto/formcontacto__error-msg.css" rel="stylesheet">
     <link href="assets/css/footer_section/footer.css" rel="stylesheet">
     <link href="assets/css/footer_section/footer__rodape.css" rel="stylesheet">
     
@@ -325,17 +327,21 @@
                     <form class="formcontacto__form" name="form">
                         
                         
-                        <input class="formcontacto__input" id="nombreid" type="text" name="nombre" placeholder="Nombre" data-form-input>
+                        <input class="formcontacto__input" id="nombreid" type="text" name="nombre" placeholder="Nombre" data-form-input required>
                         <label for="nombreid">Nombre</label>
+                        <span class ="error-msg" data-att-error-msg>Por favor, diligencia este campo con tu nombre.</span>
                         
-                        <input class="formcontacto__input" id= "emailid" type="email" name="email" placeholder="E-mail" data-form-input>
+                        <input class="formcontacto__input" id= "emailid" type="email" name="email" placeholder="E-mail" data-form-input required>
                         <label for="emailid">E-mail</label>
+                        <span class ="error-msg" data-att-error-msg>Por favor, diligencia este campo con la sintaxis correcta correo@empresa.com</span>
                         
-                        <input class="formcontacto__input" id= 'asuntoid' type="text" name="asunto" placeholder="Asunto" data-form-input>
+                        <input class="formcontacto__input" id= 'asuntoid' type="text" name="asunto" placeholder="Asunto" data-form-input required>
                         <label for="asuntoid">Asunto</label>
+                        <span class ="error-msg" data-att-error-msg>Por favor, describe el asunto por el cual nos estás contactando.</span>
                         
-                        <textarea class="formcontacto__textarea" rows="5" id='mensajeID'cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" data-form-input></textarea>
+                        <textarea class="formcontacto__textarea" rows="5" id='mensajeID'cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" data-form-input required></textarea>
                         <label class="labelTextArea" for="mensajeID">Mensaje</label>
+                        <span class ="error-msg" data-att-error-msg>Por favor, cuéntanos más detalles sobre tu consulta para poder recibir tu formulario.</span>
                         <button type="submit" class="formcontacto__boton">Enviar mensaje</button>
                     </form>
                 </div>

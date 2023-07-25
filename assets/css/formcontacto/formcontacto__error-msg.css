@@ -1,0 +1,19 @@
+.error-msg{
+    visibility: hidden;
+    font-family: "Raleway";
+    position: relative;
+    bottom: 9px;
+    font-size: 0.85rem;
+    color: red;
+
+}
+
+.show-error-msg{
+
+    visibility: visible;
+    font-family: "Raleway";
+    position: relative;
+    bottom: 9px;
+    font-size: 0.78rem;
+    color: red;
+}

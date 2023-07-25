@@ -1,7 +1,6 @@
 .formcontacto__input{
     height: 56px;
     width: 40vw;    
-    margin: 0.51rem 0 0.51rem 0;
     font-family: Raleway;
     border: white;
     border-radius: 6px;
@@ -17,9 +16,9 @@
 }
 
 label {
-  display: none;
+  visibility: hidden;
   position: relative;
-  bottom: 60px;
+  bottom: 63px;
   left: 5px;
   font-family: Raleway;
   color: grey;
@@ -28,7 +27,7 @@ label {
 
 
 .formcontacto__input:focus + label {
-  display: block;
+  visibility: visible;
   
 }
 

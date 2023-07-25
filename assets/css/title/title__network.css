@@ -1,12 +1,12 @@
 .title__network{
-    margin-top: 0.7rem;
+    margin-top: 0.85rem;
     display: flex;
 }
 
 .title__network__item{
 
     font-family: Raleway;
-    margin: 0.5rem;
+    margin-right: 1rem;
 }
 
 @media (max-width: 360px){
