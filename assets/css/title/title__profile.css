@@ -1,9 +1,11 @@
 .title__profile{
 
-    width: 20vw;
+    width: 368px;
+    border-radius: 60%;
+    height: 368px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
 
     .title__profile{
         width: 146px;
